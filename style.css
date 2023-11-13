@@ -1,0 +1,20 @@
+#e{
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: SemiBold;
+   font-size: 33px;
+   color: #eb2929;
+   float: left;
+}
+
+.login{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: medium;
+    font-size: 16px;
+    color: #070707;
+    float: right;
+    padding: 10px;
+}
+
+#header{
+   
+}
