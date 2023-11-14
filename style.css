@@ -1,14 +1,27 @@
 #e{
     color: red;
     float: left;
+    font-weight: large;
+    font-size: 33px;
+    background-color: #4121f9;
+    
 }
 
 #login{
 color: blue;
 float: right;
+background-color: #f921d5;
 }
 
 #create{
 color: forestgreen;
 float: right;
+background-color: #f921d5;
+border: solid 1px white;
+}
+
+#headstyle{
+    background-color: #CE0505;
+    width: 100%;
+    padding: 45px;
 }
