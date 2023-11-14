@@ -2,7 +2,7 @@
    font-family: 'Courier New', Courier, monospace;
    font-weight: SemiBold;
    font-size: 33px;
-   color: #eb2929;
+   color: blueviolet;
    float: left;
 }
 
@@ -16,5 +16,5 @@
 }
 
 #header{
-   
+    background-color: #CE0505
 }
