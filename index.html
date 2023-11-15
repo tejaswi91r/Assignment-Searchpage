@@ -6,17 +6,70 @@
     <title>Assignment1</title>
     <link rel="stylesheet" href="style.css"/>
 </head>
-<body>
+<body class="background-color">
     <header id="headstyle"> 
         <nav>
             <span id="e">e!</span>
 
             <div style="float: left; padding-left: 1600px;">
-                <a href="#login" style="padding-right: 50px;">Login</a>
-                <a href="#create">Create Account</a>
+                <a href="#login" style="padding-right: 50px; text-decoration: none; color: #FFFFFF;">Login</a>
+                <a href="#create" style="color: #FFFFFF; text-decoration: none; border: solid 1px #FFFFFF; padding: 8px; border-radius: 6%; font-size: 17px;">Create an account</a>
             </div>
-            
         </nav>
     </header>
+    <h1 id="tagh1">Breakfast Places in Mumbai</h1>
+    <div class="Container" id="myCard">
+        <h4 class="tagfilt"><big>Filters</big></h4>
+        <label class="tagfilt" for="location">Select Location</label><br><br>
+        <select name="location" id="location">
+           <option value="location">select location</option>
+        </select>
+        <h4 class="tagfilt">Cuisine</h4>
+    <form action="/action_page.php" id="cuisine"></form>
+        <input type="checkbox" id="cuisin1" name="cuisine1" value="cuisine1">
+        <label for="cuisine1">North Indian</label><br>
+        <input type="checkbox" id="cuisine2" name="cuisine2" value="cuisine2">
+        <label for="cuisine2">South Indian</label><br>
+        <input type="checkbox" id="cuisine3" name="cuisine3" value="cuisine3">
+        <label for="cuisine3">Chinese</label><br>
+        <input type="checkbox" id="cuisine4" name="cuisine4" value="cuisine4">
+        <label for="cuisine4">Fast Food</label><br>
+        <input type="checkbox" id="cuisine5" name="cuisine5" value="cuisine5">
+        <label for="cuisine5">Street Food</label>
+    </form>
+    <h4 class="tagfilt">Cost For Two</h4>
+    <form action="/action_page.php">
+        <input type="radio" id="cost" name="cost" value="cost">
+        <label for="cost">Less than `500</label><br>
+        <input type="radio" id="cost" name="cost" value="cost">
+        <label for="cost">`500 to `1000</label><br>
+        <input type="radio" id="cost" name="cost" value="cost">
+        <label for="cost">`1000 to `1500</label><br>
+        <input type="radio" id="cost" name="cost" value="cost">
+        <label for="cost">`15000 to `2000</label><br>
+        <input type="radio" id="cost" name="cost" value="cost">
+        <label for="cost">`2000+</label>
+    </form>
+    <h4 class="tagfilt">Sort</h4>
+    <form action="/action_page.php">
+        <input type="radio" id="cost" name="cost" value="cost">
+        <label for="cost">Price low to high</label><br>
+        <input type="radio" id="cost" name="cost" value="cost">
+        <label for="cost">Price high to low</label><br>
+</div>
+<div class="Container" id="selectcontainer">
+    <img class="idli" src="Web 1920 – 6/shutterstock_1154073754@2x.png" alt="idli">
+    <ul style="list-style-type:none;">
+        <li class="StoreName">The Big Chill Cakery</li><br>
+        <li class="fort">FORT</li><br>
+        <li class="address">Shop 1,Plot D,Samruddhi complex,Chincholi</li>
+      </ul> 
+</div><br>
+    <div class="Container" id="xyz">
+        <img class="idli" src="Web 1920 – 6/shutterstock_1154073754.png" alt="idli">
+        <h1 class="StoreName">The Bake Shop</h1><br><br>
+        <h6 class="fort">FORT</h6>
+        <h5 class="address">Shop 1,Plot D,Samruddhi complex,Chincholi</h5>
+    </div>
 </body>
 </html>

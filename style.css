@@ -1,27 +1,68 @@
 #e{
-    color: red;
+    color: #CE0505;
     float: left;
-    font-weight: large;
+    font-weight: bold;
     font-size: 33px;
-    background-color: #4121f9;
-    
-}
-
-#login{
-color: blue;
-float: right;
-background-color: #f921d5;
-}
-
-#create{
-color: forestgreen;
-float: right;
-background-color: #f921d5;
-border: solid 1px white;
+    background-color: #FFFFFF;
+    border-radius: 48%;
+    padding: 6px;
+    margin-top: -28px;
+    margin-left: 40px;
+    position: absolute;
 }
 
 #headstyle{
     background-color: #CE0505;
-    width: 100%;
-    padding: 45px;
+    width: 96.9%;
+    padding: 40px;
+}
+
+#tagh1{
+    color: #192F60;
+    margin-left: 80px;
+    font-weight: bold;
+    font-size: 34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Container{
+    background-color: #FFFFFF;
+    padding: 10px;
+    float: left;
+    margin-left: 80px;
+    box-shadow: #07070729;
+}
+
+#myCard{
+    width: 13%;
+}
+
+.background-color{
+    background-color: #FBFBFB;
+}
+
+#selectcontainer{
+    width: 70%;
+    margin-bottom: 45px;
+    margin-left: 45px;
+}
+
+#xyz{
+    width: 70%;
+    margin-left: 45px;
+}
+
+.StoreName{
+    float: left;
+}
+
+.idli{
+    float: left;
+    border-radius: 15%;
+    width: 120px;
+    height: 120px;
+}
+
+.fort{
+    float: left;
 }
