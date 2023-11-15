@@ -39,6 +39,7 @@
 
 .background-color{
     background-color: #FBFBFB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #selectcontainer{
@@ -55,6 +56,9 @@
 .Store{
     float: left;
     margin-left: 20px;
+    color: #192F60;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: medium;
 }
 
 .idli{
@@ -67,4 +71,13 @@
 
 .fort{
     float: left;
+}
+
+.tagfilt{
+    color: #192F60;
+}
+
+.checkmark{
+    background-color: #3A5075;
+
 }
