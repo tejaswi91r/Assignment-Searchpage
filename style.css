@@ -13,7 +13,7 @@
 
 #headstyle{
     background-color: #CE0505;
-    width: 96.9%;
+    width: 95.7%;
     padding: 40px;
 }
 
@@ -30,11 +30,12 @@
     padding: 10px;
     float: left;
     margin-left: 80px;
-    box-shadow: #07070729;
+    box-shadow: 2px 1px 5px 3px #00000029;
 }
 
 #myCard{
     width: 13%;
+    padding: 10px;
 }
 
 .background-color{
@@ -51,6 +52,7 @@
 #xyz{
     width: 70%;
     margin-left: 45px;
+
 }
 
 .Store{
@@ -69,15 +71,27 @@
     padding: 15px;
 }
 
-.fort{
-    float: left;
-}
-
 .tagfilt{
     color: #192F60;
+    font-weight: lighter;
 }
 
-.checkmark{
-    background-color: #3A5075;
+.location{
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5%;
+    border-color: #8C96AB;
+    font-size: medium;
+    width: 180px;
+    color: #8C96AB;
+}
 
+.checkbox{
+    color: #8C96AB;
+}
+
+.red-input {
+    accent-color:#3A5075;
+    height: 15px; /* not needed */
+    width: 15px; /* not needed */
 }
